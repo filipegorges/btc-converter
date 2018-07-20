@@ -4,20 +4,20 @@
 
 > A CLI to convert Bitcoin to any currency provided.
 
-[Example CLI running](img/demo.gif)
+![Example CLI running](img/demo.gif)
 
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica
 
 ### Installing
 
 ```
-$ npm install -g btc-converter
+$ npm install -g reuwsaat-btc-converter
 ```
 
 ### How to use
 
 ```sh
-btc-converter --help
+reuwsaat-btc-converter --help
 
   Usage: btc-converter [options]
 
