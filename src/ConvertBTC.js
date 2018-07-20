@@ -4,7 +4,7 @@ const ora = require('ora');
 
 const spinner = ora({
   text: 'Retrieving Bitcoin data...',
-  color: 'yellow'
+  color: 'yellow',
 });
 
 function convertBTC(currency = 'USD', amount = 1) {
@@ -13,15 +13,15 @@ function convertBTC(currency = 'USD', amount = 1) {
   spinner.start();
 
   return request(url)
-    .then(body => {
+    .then((body) => {
       spinner.stop();
       return body;
     })
-    .then(body => {
+    .then((body) => {
       const apiResponse = JSON.parse(body);
       console.info(`${chalk.red(amount)} BTC to ${chalk.cyan(currency)} = ${chalk.yellow(apiResponse.price)}`);
     })
-    .catch(err => {
+    .catch((err) => {
       spinner.stop();
       console.info(chalk.red('Something went wrong in the API. Try again in a few minutes.'));
       return err;
