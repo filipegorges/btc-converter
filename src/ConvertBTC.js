@@ -15,9 +15,6 @@ function convertBTC(currency = 'USD', amount = 1) {
   return request(url)
     .then((body) => {
       spinner.stop();
-      return body;
-    })
-    .then((body) => {
       const apiResponse = JSON.parse(body);
       console.info(`${chalk.red(amount)} BTC to ${chalk.cyan(currency)} = ${chalk.yellow(apiResponse.price)}`);
     })
