@@ -2,7 +2,7 @@
 
 > A CLI to convert Bitcoin to any currency provided.
 
-[Example CLI running](img/demo.gif)
+![Example CLI running](img/demo.gif)
 
 Udemy course: https://www.udemy.com/js-com-tdd-na-pratica
 
