@@ -1,4 +1,6 @@
 # Bitcoin Converter CLI
+[![Build Status](https://travis-ci.org/filipegorges/btc-converter.svg?branch=master)](https://travis-ci.org/filipegorges/btc-converter)
+[![Coverage Status](https://coveralls.io/repos/github/filipegorges/btc-converter/badge.svg?branch=master)](https://coveralls.io/github/filipegorges/btc-converter?branch=master)
 
 > A CLI to convert Bitcoin to any currency provided.
 
