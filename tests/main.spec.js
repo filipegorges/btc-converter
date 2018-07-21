@@ -1,7 +1,9 @@
+#!/usr/bin/env node
+
 const expect = require('chai').expect;
 const exec = require('child_process').exec;
 
-const btcConverter = 'node.exe ./src/main.js';
+const btcConverter = './src/main.js';
 const pkg = require('../package.json');
 
 describe('Main CLI', () => {
