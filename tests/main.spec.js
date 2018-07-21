@@ -3,7 +3,7 @@
 const expect = require('chai').expect;
 const exec = require('child_process').exec;
 
-const btcConverter = './src/main.js';
+const btcConverter = 'chmod +x ./src/main.js && ./src/main.js';
 const pkg = require('../package.json');
 
 describe('Main CLI', () => {
